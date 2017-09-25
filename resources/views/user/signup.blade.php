@@ -11,7 +11,7 @@
 @endforeach
 </div>
 @endif
-<form action="" method="post">
+<form action="{{route('user.signup')}}" method="post">
   <div class="form-group"> 
     <label for="email">Email address</label>
     <input type="text " class="form-control" id="email" name="email">
@@ -28,6 +28,8 @@
     </label>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
+  {{csrf_field()}}
+  
 </form>
 </div>
 </div>
