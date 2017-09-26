@@ -16,7 +16,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="{{route('user.signup')}}">Signup </a>
-          <a class="dropdown-item" href="#">Signin</a>
+          <a class="dropdown-item" href="{{route('user.signin')}}">Signin</a>
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
       </li>
